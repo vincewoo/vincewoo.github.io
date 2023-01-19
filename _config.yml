@@ -66,32 +66,49 @@ content:
             - Worked closely with the module developers to design tests for Critical Relay Controllers (CRC), Event Reports (EVR), Communication Behaviors, and Radio configuration manager.
             - Developed and maintained tools for managing the tracking of verification items and their status for use in release reporting. 
             - Team liaison for Known Warning EVR Dispositions. Worked with other V&V teams to help disposition EVRs found in other venues.
-
+      - layout: left
+        title: NASA Jet Propulsion Laboratory
+        link: jpl.nasa.gov
+        # link_text: boringcompany.com
+        sub_title: Enterprise Software Application Developer IV, Group 172B
+        caption: January 2017 - May 2019
+        # quote: 
+        description: | # this will include new lines to allow paragraphs
+          - Led a team of 3 developers in improving and building upon the Document Risk Resource Tool (DRRT). Designed a scalable text extraction pipeline with SQS and S3, coded in Java and Python. Redesigned and refactored the DRRT web application in Python Flask and Angular. 
+          - Built the Strategic Partners Applications (SPA) from the ground up in a team of 4 developers. The application is built on Flask in Python with a Polymer front-end. The dynamic user interface includes custom D3 components to provide user-friendly features for reporting and forecasting.
+          - Refactored the Facilities Search front-end Javascript to reduce latency and improve user experience. Investigated and fixed several critical bugs in preparation for production deployment.
+      - layout: left
+        title: Amazon.com, Inc.
+        link: amazon.com
+        # link_text: boringcompany.com
+        sub_title: Software Development Manager, Search Data Aggregation
+        caption: January 2014 - January 2017
+        # quote: 
+        description: | # this will include new lines to allow paragraphs
+          - Managed a team of 7 SDEs developing the platform to pre-compute Amazon's immense retail catalog search index containing billions of items. 
+          - Working with principal engineers and partner teams to evolve an elastically scalable system to sustain consistent year-over-year traffic growth.
+          - Consulted on projects requiring unique search features such as Amazon Instant Video, PrimeNow, and AmazonFresh.
+          - Actively engaged on various recruiting tasks such as resume screening, phone screens and leading on-site interview loops.
+      - layout: left
+        title: Amazon.com, Inc.
+        link: amazon.com
+        # link_text: boringcompany.com
+        sub_title: Software Development Engineer II, Search Data Aggregation
+        caption: May 2010 - January 2014
+        # quote: 
+        description: | # this will include new lines to allow paragraphs
+          - As part of the Search Data Aggregation team I designed and developed highly scalable and efficient applications that process, aggregate and publish hundreds of millions of updates a day to the Amazon search index. 
+          - Designed and implemented features in a distributed NoSQL processing framework in JAVA that supported the development of important business deliverables.
+          - Managed search feature requests for the team. Responsibilities included requirements gathering, providing support to stakeholders, and scheduling and prioritizing of feature work.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+        title: University of Waterloo
+        caption: September 2002 - June 2007
+        sub_title: Bachelors of Computer Science, Honours Computer Science
+        # quote: 
+        # description: | # this will include new lines to allow paragraphs
 
 # Footer
 footer_show_references: true
