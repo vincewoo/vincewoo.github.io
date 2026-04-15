@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
- Senior developer with 12+ years experience designing and building highly scalable applications primarily in <mark>JAVA</mark> and <mark>Python</mark>. Experienced in managing software development teams and interfacing with stakeholders to gather requirements and manage the product life-cycle.  
+ Senior developer with 12+ years experience designing and building highly scalable applications primarily in <mark>Java</mark> and <mark>Python</mark>. Experienced in managing software development teams and interfacing with stakeholders to gather requirements and manage the product life-cycle.  
 
 content:
   - title: Experience # Title for the section
@@ -58,14 +58,49 @@ content:
         title: NASA Jet Propulsion Laboratory
         link: jpl.nasa.gov
         # link_text: boringcompany.com
-        sub_title: Flight Software Engineer IV, Group 348B
-        caption: May 2019 - Present
+        sub_title: Europa Clipper Flight Operations - AVS/FSW
+        caption: December 2023 - Present
         # quote: 
         description: | # this will include new lines to allow paragraphs
-            - As part of the Europa Clipper Flight Software Internal Test (FIT) team I designed, implemented, and maintained a set of integration tests that verified L5 requirements. These tests were written in Python and interfaced with spacecraft simulation environments (both software and hardware).
-            - Worked closely with the module developers to design tests for Critical Relay Controllers (CRC), Event Reports (EVR), Communication Behaviors, and Radio configuration manager.
+            - Developed flight procedures, contingency plans, and operational tools to support Europa Clipper launch and early cruise operations.
+            - Served as Avionics and FSW console operator, monitoring subsystem health in real time during critical mission events including launch and spacecraft checkout.
+            - Represented the FSW team in the post-launch software update campaign, performed nominal and off-nominal testing of the update process and safing recovery procedures.
+            - Developed automated ground tools for spacecraft telemetry trending and analysis, enabling faster anomaly detection and reducing manual data review effort.
+      - layout: left
+        title: NASA Jet Propulsion Laboratory
+        link: jpl.nasa.gov
+        # link_text: boringcompany.com
+        sub_title: F' Infrastructure FSW Engineer
+        caption: March 2025 - October 2025
+        # quote: 
+        description: | # this will include new lines to allow paragraphs
+            - Triaged and resolved bug reports and feature requests for the F' framework, contributing fixes back to the open-source framework.
+            - Executed a major refactoring of the F' serialization layer to enforce consistent directionality between buffers and serializable objects, improving framework clarity and maintainability.
+            - Piloted agentic coding tools (Windsurf, Cursor) for debugging, documentation, and implementation tasks, evaluating their effectiveness for adoption in flight software development workflows.
+      - layout: left
+        title: NASA Jet Propulsion Laboratory
+        link: jpl.nasa.gov
+        # link_text: boringcompany.com
+        sub_title: Europa Clipper FSW/FIT Lead
+        caption: June 2023 - March 2026
+        # quote: 
+        description: | # this will include new lines to allow paragraphs
+            - Led a team of 10 engineers in verifying and validating L5 requirements and flight software dictionary items for the Europa Clipper mission.
+            - Oversaw maintenance of the FSW build infrastructure, ensuring reliable and repeatable software delivery across the team.
+            - Drove closure of all outstanding testing gaps ahead of Europa Clipper's launch, coordinating across engineering teams to meet mission-critical milestones.
+            - Served as team liaison to Software Quality Assurance and NASA IVV (Independent Verification and Validation), facilitating audits, reviews, and cross-team coordination to ensure compliance with mission software standards.
+      - layout: left
+        title: NASA Jet Propulsion Laboratory
+        link: jpl.nasa.gov
+        # link_text: boringcompany.com
+        sub_title: Europa Clipper FSW/FIT Engineer
+        caption: May 2019 - June 2023
+        # quote: 
+        description: | # this will include new lines to allow paragraphs
+            - Designed, implemented, and maintained Python integration tests verifying L5 requirements against spacecraft simulation environments (software and hardware).
+            - Partnered with module developers to design tests for Critical Relay Controllers, Event Reporting, Communication Behaviors, Radio manager, and FSW load and patch modules.
             - Developed and maintained tools for managing the tracking of verification items and their status for use in release reporting. 
-            - Team liaison for Known Warning EVR Dispositions. Worked with other V&V teams to help disposition EVRs found in other venues.
+            - Served as team liaison for Known Warning EVR Dispositions, coordinating with cross-functional V&V teams to triage and disposition anomalous event reports.
       - layout: left
         title: NASA Jet Propulsion Laboratory
         link: jpl.nasa.gov
@@ -76,7 +111,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - Led a team of 3 developers in improving and building upon the Document Risk Resource Tool (DRRT). Designed a scalable text extraction pipeline with SQS and S3, coded in Java and Python. Redesigned and refactored the DRRT web application in Python Flask and Angular. 
           - Built the Strategic Partners Applications (SPA) from the ground up in a team of 4 developers. The application is built on Flask in Python with a Polymer front-end. The dynamic user interface includes custom D3 components to provide user-friendly features for reporting and forecasting.
-          - Refactored the Facilities Search front-end Javascript to reduce latency and improve user experience. Investigated and fixed several critical bugs in preparation for production deployment.
+          - Refactored the Facilities Search front-end JavaScript to reduce latency and improve user experience. Investigated and fixed several critical bugs in preparation for production deployment.
       - layout: left
         title: Amazon.com, Inc.
         link: amazon.com
@@ -86,8 +121,8 @@ content:
         # quote: 
         description: | # this will include new lines to allow paragraphs
           - Managed a team of 7 SDEs developing the platform to pre-compute Amazon's immense retail catalog search index containing billions of items. 
-          - Working with principal engineers and partner teams to evolve an elastically scalable system to sustain consistent year-over-year traffic growth.
-          - Consulted on projects requiring unique search features such as Amazon Instant Video, PrimeNow, and AmazonFresh.
+          - Worked with principal engineers and partner teams to evolve an elastically scalable system to sustain consistent year-over-year traffic growth.
+          - Provided search platform expertise to high-profile product teams including Amazon Instant Video, PrimeNow, and AmazonFresh.
           - Actively engaged on various recruiting tasks such as resume screening, phone screens and leading on-site interview loops.
       - layout: left
         title: Amazon.com, Inc.
@@ -98,7 +133,7 @@ content:
         # quote: 
         description: | # this will include new lines to allow paragraphs
           - As part of the Search Data Aggregation team I designed and developed highly scalable and efficient applications that process, aggregate and publish hundreds of millions of updates a day to the Amazon search index. 
-          - Designed and implemented features in a distributed NoSQL processing framework in JAVA that supported the development of important business deliverables.
+          - Designed and implemented features in a distributed NoSQL processing framework in Java.
           - Managed search feature requests for the team. Responsibilities included requirements gathering, providing support to stakeholders, and scheduling and prioritizing of feature work.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
