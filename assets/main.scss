@@ -3,3 +3,80 @@
 ---
 
 @import 'modern-resume-theme';
+
+// Print button — visible on screen, hidden when printing
+.print-button {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background-color: #477dca;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.6rem 1.4rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  z-index: 9999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  transition: background-color 150ms ease, box-shadow 150ms ease;
+
+  &:hover {
+    background-color: #3964a2;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media print {
+  // Hide the print button
+  .print-button {
+    display: none !important;
+  }
+
+  // Stack layout columns vertically instead of side-by-side.
+  // The theme's .layout uses flexbox (flex-direction: row), which overrides
+  // Bootstrap's float-based print columns, so we need to explicitly reset it.
+  .layout {
+    display: block;
+    margin-top: 0.75rem;
+  }
+
+  .layout .details {
+    text-align: left !important;
+    margin-bottom: 0.4rem;
+  }
+
+  .layout .details p {
+    text-align: left !important;
+  }
+
+  // Tighten the page header
+  .header-container {
+    margin-top: 15px;
+  }
+
+  // Tighten the footer
+  .footer-container {
+    margin-top: 25px;
+  }
+
+  // Prevent page breaks splitting a single job/education entry
+  .row.clearfix.layout {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  // Section headers: reduce bottom margin already handled by theme,
+  // but ensure they don't get orphaned from their content
+  h3 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  h4 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+}
