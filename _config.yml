@@ -43,17 +43,6 @@ content:
         title: NASA Jet Propulsion Laboratory
         link: https://jpl.nasa.gov
         # link_text: boringcompany.com
-        sub_title: F' Infrastructure FSW Engineer
-        caption: March 2025 - October 2025
-        # quote: 
-        description: | # this will include new lines to allow paragraphs
-            - Triaged and resolved bug reports and feature requests for the F' framework, contributing fixes back to the open-source framework.
-            - Executed a major refactoring of the F' serialization layer to enforce consistent directionality between buffers and serializable objects, improving framework clarity and maintainability.
-            - Piloted agentic coding tools (Windsurf, Cursor) for debugging, documentation, and implementation tasks, evaluating their effectiveness for adoption in flight software development workflows.
-      - layout: left
-        title: NASA Jet Propulsion Laboratory
-        link: https://jpl.nasa.gov
-        # link_text: boringcompany.com
         sub_title: Europa Clipper FSW/FIT Lead
         caption: June 2023 - March 2026
         # quote: 
@@ -62,6 +51,18 @@ content:
             - Oversaw maintenance of the FSW build infrastructure, ensuring reliable and repeatable software delivery across the team.
             - Drove closure of all outstanding testing gaps ahead of Europa Clipper's launch, coordinating across engineering teams to meet mission-critical milestones.
             - Served as team liaison to Software Quality Assurance and NASA IVV (Independent Verification and Validation), facilitating audits, reviews, and cross-team coordination to ensure compliance with mission software standards.
+
+      - layout: left
+        title: NASA Jet Propulsion Laboratory
+        link: https://jpl.nasa.gov
+        # link_text: boringcompany.com
+        sub_title: F' Infrastructure FSW Engineer
+        caption: March 2025 - October 2025
+        # quote: 
+        description: | # this will include new lines to allow paragraphs
+            - Triaged and resolved bug reports and feature requests for the F' framework, contributing fixes back to the open-source framework.
+            - Executed a major refactoring of the F' serialization layer to enforce consistent directionality between buffers and serializable objects, improving framework clarity and maintainability.
+            - Piloted agentic coding tools (Windsurf, Cursor) for debugging, documentation, and implementation tasks, evaluating their effectiveness for adoption in flight software development workflows.
       - layout: left
         title: NASA Jet Propulsion Laboratory
         link: https://jpl.nasa.gov
