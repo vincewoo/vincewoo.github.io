@@ -9,40 +9,13 @@ version: 2
 name: Vince Woo
 title: Flight Software Engineer
 email: vince@vincewoo.com
-website: www.vincewoo.com
+website: https://www.vincewoo.com
 
 # Dark Mode (true/false/never)
 darkmode: false
 
-# Social links
-# twitter_username: facespics
 github_username:  vincewoo
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: vinceythewoo
 linkedin_username: vincewoo
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me
@@ -56,7 +29,7 @@ content:
     content:
       - layout: left
         title: NASA Jet Propulsion Laboratory
-        link: jpl.nasa.gov
+        link: https://jpl.nasa.gov
         # link_text: boringcompany.com
         sub_title: Europa Clipper Flight Operations - AVS/FSW
         caption: December 2023 - Present
@@ -68,7 +41,7 @@ content:
             - Developed automated ground tools for spacecraft telemetry trending and analysis, enabling faster anomaly detection and reducing manual data review effort.
       - layout: left
         title: NASA Jet Propulsion Laboratory
-        link: jpl.nasa.gov
+        link: https://jpl.nasa.gov
         # link_text: boringcompany.com
         sub_title: F' Infrastructure FSW Engineer
         caption: March 2025 - October 2025
@@ -79,7 +52,7 @@ content:
             - Piloted agentic coding tools (Windsurf, Cursor) for debugging, documentation, and implementation tasks, evaluating their effectiveness for adoption in flight software development workflows.
       - layout: left
         title: NASA Jet Propulsion Laboratory
-        link: jpl.nasa.gov
+        link: https://jpl.nasa.gov
         # link_text: boringcompany.com
         sub_title: Europa Clipper FSW/FIT Lead
         caption: June 2023 - March 2026
@@ -91,7 +64,7 @@ content:
             - Served as team liaison to Software Quality Assurance and NASA IVV (Independent Verification and Validation), facilitating audits, reviews, and cross-team coordination to ensure compliance with mission software standards.
       - layout: left
         title: NASA Jet Propulsion Laboratory
-        link: jpl.nasa.gov
+        link: https://jpl.nasa.gov
         # link_text: boringcompany.com
         sub_title: Europa Clipper FSW/FIT Engineer
         caption: May 2019 - June 2023
@@ -103,18 +76,18 @@ content:
             - Served as team liaison for Known Warning EVR Dispositions, coordinating with cross-functional V&V teams to triage and disposition anomalous event reports.
       - layout: left
         title: NASA Jet Propulsion Laboratory
-        link: jpl.nasa.gov
+        link: https://jpl.nasa.gov
         # link_text: boringcompany.com
         sub_title: Enterprise Software Application Developer IV, Group 172B
         caption: January 2017 - May 2019
         # quote: 
         description: | # this will include new lines to allow paragraphs
-          - Led a team of 3 developers in improving and building upon the Document Risk Resource Tool (DRRT). Designed a scalable text extraction pipeline with SQS and S3, coded in Java and Python. Redesigned and refactored the DRRT web application in Python Flask and Angular. 
+          - Led a team of 3 developers in improving and building upon the Document Risk Resource Tool (DRRT). Designed a scalable text extraction pipeline with SQS and S3, implemented in Java and Python. Redesigned and refactored the DRRT web application in Python Flask and Angular. 
           - Built the Strategic Partners Applications (SPA) from the ground up in a team of 4 developers. The application is built on Flask in Python with a Polymer front-end. The dynamic user interface includes custom D3 components to provide user-friendly features for reporting and forecasting.
           - Refactored the Facilities Search front-end JavaScript to reduce latency and improve user experience. Investigated and fixed several critical bugs in preparation for production deployment.
       - layout: left
         title: Amazon.com, Inc.
-        link: amazon.com
+        link: https://amazon.com
         # link_text: boringcompany.com
         sub_title: Software Development Manager, Search Data Aggregation
         caption: January 2014 - January 2017
@@ -126,7 +99,7 @@ content:
           - Actively engaged on various recruiting tasks such as resume screening, phone screens and leading on-site interview loops.
       - layout: left
         title: Amazon.com, Inc.
-        link: amazon.com
+        link: https://amazon.com
         # link_text: boringcompany.com
         sub_title: Software Development Engineer II, Search Data Aggregation
         caption: May 2010 - January 2014
@@ -134,7 +107,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           - As part of the Search Data Aggregation team I designed and developed highly scalable and efficient applications that process, aggregate and publish hundreds of millions of updates a day to the Amazon search index. 
           - Designed and implemented features in a distributed NoSQL processing framework in Java.
-          - Managed search feature requests for the team. Responsibilities included requirements gathering, providing support to stakeholders, and scheduling and prioritizing of feature work.
+          - Managed search feature requests for the team. Responsibilities included requirements gathering, providing support to stakeholders, and scheduling and prioritizing feature work.
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
