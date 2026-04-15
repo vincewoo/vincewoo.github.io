@@ -4,10 +4,9 @@
 
 @import 'modern-resume-theme';
 
-// Print button — visible on screen, hidden when printing
-.print-button {
+// Shared styles for fixed action buttons (print + theme toggle)
+%action-button {
   position: fixed;
-  top: 1.5rem;
   right: 1.5rem;
   background-color: #477dca;
   color: #fff;
@@ -29,9 +28,22 @@
   }
 }
 
+// Theme toggle button — sits above the print button
+.theme-toggle-button {
+  @extend %action-button;
+  top: 1.5rem;
+}
+
+// Print button — visible on screen, hidden when printing
+.print-button {
+  @extend %action-button;
+  top: 5rem;
+}
+
 @media print {
-  // Hide the print button
-  .print-button {
+  // Hide action buttons
+  .print-button,
+  .theme-toggle-button {
     display: none !important;
   }
 
