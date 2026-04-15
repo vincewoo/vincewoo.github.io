@@ -9,7 +9,7 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
   var btn = document.createElement('button');
   btn.className = 'print-button';
   btn.setAttribute('aria-label', 'Print resume');
-  btn.textContent = 'Print';
+  btn.textContent = '\uD83D\uDDA8\uFE0F Print';
   btn.addEventListener('click', function () {
     window.print();
   });
