@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
- Senior developer with 12+ years experience designing and building highly scalable applications primarily in <mark>Java</mark> and <mark>Python</mark>. Experienced in managing software development teams and interfacing with stakeholders to gather requirements and manage the product life-cycle.  
+ Flight Software Engineer at NASA JPL with 20 years of experience across mission-critical space systems, enterprise software, and engineering leadership. Currently supporting Europa Clipper operations after leading the FSW Integration Test team through launch.  
 
 content:
   - title: Experience # Title for the section
