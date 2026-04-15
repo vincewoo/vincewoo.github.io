@@ -7,14 +7,14 @@
 // Print button — visible on screen, hidden when printing
 .print-button {
   position: fixed;
-  bottom: 1.5rem;
+  top: 1.5rem;
   right: 1.5rem;
   background-color: #477dca;
   color: #fff;
   border: none;
   border-radius: 4px;
-  padding: 0.6rem 1.4rem;
-  font-size: 0.85rem;
+  padding: 0.75rem 1.6rem;
+  font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
