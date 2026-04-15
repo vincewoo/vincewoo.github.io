@@ -4,6 +4,14 @@
 
 @import 'modern-resume-theme';
 
+// Override theme's justified text alignment with left alignment
+.details,
+.details p,
+.description,
+p {
+  text-align: left !important;
+}
+
 // Theme toggle pill button
 // Track: warm amber in light mode, dark navy in dark mode.
 // Thumb: white circle that slides left (sun) <-> right (moon).
